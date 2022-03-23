@@ -56,19 +56,32 @@
         <br>
       </p>
 <br>
-      <div class="col-md-4 col-sm-12 col-xs-12">
-	      <label>Snapshot - </label>
+<div class="col-md-4 col-sm-12 col-xs-12">
+    <label>Webcam View - </label>
+<div id="camera"> </div>
+  <br><br>
+<button class="btn btn-danger" onclick="take_snapshot();" >Capture Image</button>
+</div>
 
-        <br><br>
+<div class="col-md-4 col-sm-12 col-xs-12">
+    <label>Prediction 1 - </label>
+ <p class="emotion_name" id="result_emotion_name"></p>
+ <p class="emoji" id="update_emoji"></p>
 
-      </div>
+ <label>Prediction 2 - </label>
+ <p class="emotion_name" id="result_emotion_name2"></p>
+ <p class="emoji" id="update_emoji2"></p>
+</div>
 
+<div class="col-md-4 col-sm-12 col-xs-12">
+    <label>Snapshot - </label>
+<div id="result"> </div>
+  <br><br>
+<button class="btn btn-primary" onclick="check();" >Predict Emotion</button>
+</div> 
     </center>
-
   </div>
-
 <script src="main.js"></script>
-
   </body>
 </html>
 

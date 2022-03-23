@@ -1,7 +1,6 @@
 body
 {
-  color: white;
-  background: #f58aff;
+  background: #ff88eb;
 }
 span
 {
@@ -24,4 +23,18 @@ span
 .emoji
 {
   font-size:48px;
+}
+.heading
+{
+  font-size:20px;
+  border-radius:15px ;
+  letter-spacing:10px;
+}
+label
+{
+  font-size:20px;
+  border-radius:15px ;
+  color:#ff11b8;
+  background-color: #ff70c8;
+  padding:10px;
 }
